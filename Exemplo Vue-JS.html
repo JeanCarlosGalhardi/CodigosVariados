@@ -7,10 +7,10 @@
           template:` 
               <div>
                   <h1> Olá {{nome}}</h1>
-                  <input type="text" v-model="nome" />
+                  Digite seu nome: <input type="text" v-model="nome" />
               </div>
               `,
-              data: () => ({nome: 'Jean'})
+              data: () => ({nome: ''})
       })      
       
       const vue = new Vue({
