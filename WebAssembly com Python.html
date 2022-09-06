@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>WebAssembly com Python</title>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <meta charset="utf-8">
+  </head>
+  <body>    
+    <py-script>
+        from datetime import datetime
+        now = datetime.now()
+        now.strftime("%d/%m/%Y, %H:%M:%S")
+    </py-script>
+  </body>
+</html>
